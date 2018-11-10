@@ -1,13 +1,30 @@
 package bank;
 
-import com.sun.org.apache.xml.internal.utils.StringToStringTable;
+import org.junit.jupiter.api.Test;
+import utils.FileUtils;
 
-import java.awt.*;
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.Collection;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 public class Person {
+
+    public static final String separatoRegex = "\\s*,\\s*";
+
+    public static class CompareByName implements Comparator<Person> {
+
+        @Override
+        public int compare(Person a, Person b) {
+
+            return a.name.compareTo(b.name);
+        }
+    }
+
 
     private String name;
 
@@ -15,56 +32,189 @@ public class Person {
 
     private String location;
 
+
     public Person(String name, Employer employer, String location) {
+
         this.name = name;
         this.employer = employer;
         this.location = location;
     }
 
-    @Override
-    public String toString(){
 
-        return String.format("\nName: %s\nEmployer: %s\nLocation: %s",
+    @Override
+    public String toString() {
+
+        return String.format(
+                "\nName: %s\nEmployer: %s\nLocation: %s",
                 name,
-                employer,
+                employer.name(),
                 location);
     }
+
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
 
     public String getName() {
         return name;
     }
 
+
     public Employer getEmployer() {
         return employer;
     }
 
+
     public String getLocation() {
         return location;
-
     }
 
-    public void setName(String name)
-        this.name = name;
 
-    public  static Person stringToPerson (String text) {
+    public static Person stringToPerson(String text) {
 
-        return new Person("Aida",Employer.BRD,"Bucuresti");
+        // text = "Anda, Bucuresti,   Visma"
+        String[] textTokens = text.split(separatoRegex);
+
+        String name = textTokens[0];
+        String location = textTokens[1];
+
+        // Employer.Visma.name() ---> returns "Visma"
+        // Employer.valueOf("Visma") ---> returns Employer.Visma
+        Employer employer = Employer.valueOf(textTokens[2]);
+
+        return new Person(name, employer, location);
+    }
+
+
+    public static List<Person> fileToPersonList(String... more) throws IOException {
+
+        List<String> fileLines = FileUtils.fileLinesToList(more);
+
+        List<String> nonEmptyLines = FileUtils.extractNonEmptyLines(fileLines);
+
+        List<Person> personList = new ArrayList<>();
+
+        for (String line : nonEmptyLines) {
+
+            Person currentPerson = stringToPerson(line);
+            personList.add(currentPerson);
         }
 
+        return personList;
+    }
 
 
-        public static List<String> fileLinesToList(String ){
+    private static List<Person> getEmployees(List<Person> personList, String location) {
 
-            Path employeesFullPath = FileUtils.getLocalPath(ResourcesDirectories.BankResources.name(),localFilePath);
+        List<Person> timisoaraEmployees = new ArrayList<>();
 
-            List<String> fileLines = Files.readAllLines(employeesFullPath);
+        for (Person person : personList) {
 
-            for (String line : fileLines) {
-                System.out.println(line);
+            if (person.location.equals(location)) {
+                timisoaraEmployees.add(person);
             }
-
-
-            return Collection.emptyList();
         }
+
+        return timisoaraEmployees;
+    }
+
+
+    private static List<Person> getEmployees(List<Person> personList, Employer employer) {
+
+        List<Person> employees = new ArrayList<>();
+
+        for (Person person : personList) {
+
+            if (person.employer.equals(employer)) {
+                employees.add(person);
+            }
+        }
+
+        return employees;
+    }
+
+
+    private static List<Person> getEmployees(
+            List<Person> personList,
+            Employer employer,
+            String location) {
+
+        List<Person> employees = new ArrayList<>();
+
+        for (Person person : personList) {
+
+            if (person.employer.equals(employer) && person.location.equals(location)) {
+                employees.add(person);
+            }
+        }
+
+        return employees;
+    }
+
+
+    public static void main(String[] args) throws IOException {
+
+        List<Person> personList = fileToPersonList(
+                ResourcesDirectories.BankResources.name(),
+                "employees.csv");
+
+        List<Person> timisoaraEmployees = getEmployees(
+                personList,
+                "Bucuresti");
+
+        List<Person> employesFromVisma = getEmployees(
+                personList,
+                Employer.Visma);
+
+        List<Person> employesFromVismaTimisora = getEmployees(
+                personList,
+                Employer.Visma,
+                "Timisoara");
+
+
+        /*for(Person person : timisoaraEmployees){
+            System.out.println(person);
+        }*/
+
+        String finalText = "";
+        for (Person person : employesFromVismaTimisora) {
+            finalText += person.toString() + "\n";
+        }
+
+        System.out.println(finalText);
+
+        Path outFilePath = FileUtils.getLocalPath(
+                ResourcesDirectories.BankResources.name(),
+                "employeesFromVismaTimisoara.txt");
+
+        Files.write(outFilePath, finalText.getBytes());
+
+
+        // SORT
+
+        System.out.println("\n*** Sorted ***");
+
+        List<Person> personListSorted = new ArrayList<>();
+        personListSorted.addAll(personList);
+
+        Collections.sort(
+
+                personListSorted,
+
+                new Comparator<Person>() {
+
+                    @Override
+                    public int compare(Person p1, Person p2) {
+                        return p1.getName().compareTo(p2.getName());
+                    }
+                });
+
+
+        personListSorted.forEach(System.out::println);
+    }
+
+
 
 }

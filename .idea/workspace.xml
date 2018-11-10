@@ -3,7 +3,40 @@
   <component name="ChangeListManager">
     <list default="true" id="33cb8137-7bd4-42cb-b634-0de1352e3562" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankResources/employees.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bankResources/employees.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJava/bank/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJava/bank/BankAccountTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJava/bank/Employer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJava/base/ArrayPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJava/base/ArrayPracticeTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJava/base/ClassInterfaceEnumTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJava/base/CollectionsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJava/base/ListPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJava/base/Loops.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJava/base/NumbersEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJava/base/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJava/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJava/oop/ChildClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJava/oop/Learnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJava/oop/ObjectTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJava/oop/ParentClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learnJava/oop/UppercaseChild.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bank/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bank/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/BankAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bank/Employer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/Employer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bank/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bank/RegexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/RegexTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bank/ResourcesDirectories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/ResourcesDirectories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bank/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/ArrayPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/ArrayPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/ClassInterfaceEnumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/ClassInterfaceEnumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/CollectionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/CollectionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/ListPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/ListPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/Loops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/Learnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Learnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/ObjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/ObjectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/UppercaseChild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/UppercaseChild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/FileUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,73 +49,59 @@
     <session id="469613454">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.66" value="1" />
           <entry key="project.open.time.72" value="1" />
+          <entry key="project.open.time.74" value="1" />
           <entry key="project.open.time.78" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="1" />
-          <entry key="java" value="33" />
+          <entry key="java" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="33" />
+          <entry key="JAVA" value="38" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5737" />
+          <entry key="java" value="5747" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5737" />
+          <entry key="JAVA" value="5747" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bank/Person.java">
+        <entry file="file://$PROJECT_DIR$/src/test_18_11_10/Name.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
-                <element signature="e#616#617#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/bank/RegexTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test_18_11_10/Year.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bank/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -125,10 +144,10 @@
         <option value="$PROJECT_DIR$/src/oop/Test.java" />
         <option value="$PROJECT_DIR$/src/bank/ResourcesDirectories.java" />
         <option value="$PROJECT_DIR$/src/bank/FileUtils.java" />
+        <option value="$PROJECT_DIR$/src/bank/RegexTest.java" />
         <option value="$PROJECT_DIR$/src/utils/FileUtils.java" />
         <option value="$PROJECT_DIR$/src/bank/Test.java" />
         <option value="$PROJECT_DIR$/src/bank/Person.java" />
-        <option value="$PROJECT_DIR$/src/bank/RegexTest.java" />
       </list>
     </option>
   </component>
@@ -149,6 +168,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,36 +180,28 @@
             <path>
               <item name="learnJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bankResources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learnJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bank" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541341711336" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541842660114" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -211,13 +224,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.CollectionsTest">
     <configuration name="BankAccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bank.BankAccountTest" />
       <module name="learnJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.CollectionsTest" />
+      <module name="learnJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -251,23 +277,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All Features in: bank" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/bank" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="learnJava" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
-      <option name="SUGGESTED_NAME" value="All Features in: bank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="All Features in: oop" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/oop" />
@@ -287,17 +296,15 @@
     </configuration>
     <list>
       <item itemvalue="Application.NumbersEnum" />
-      <item itemvalue="Cucumber java.All Features in: bank" />
       <item itemvalue="Application.BankAccountTest" />
-      <item itemvalue="Cucumber java.All Features in: oop" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.CollectionsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectionsTest" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Cucumber java.All Features in: oop" />
         <item itemvalue="Application.BankAccountTest" />
-        <item itemvalue="Cucumber java.All Features in: bank" />
         <item itemvalue="Application.NumbersEnum" />
       </list>
     </recent_temporary>
@@ -316,6 +323,10 @@
       <workItem from="1541228923081" duration="17008000" />
       <workItem from="1541252772350" duration="3045000" />
       <workItem from="1541315138176" duration="18431000" />
+      <workItem from="1541833665369" duration="1208000" />
+      <workItem from="1541835403406" duration="666000" />
+      <workItem from="1541837287268" duration="595000" />
+      <workItem from="1541841084418" duration="9000" />
     </task>
     <servers />
   </component>
@@ -325,12 +336,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48600000" />
+    <option name="totallyTimeSpent" value="51078000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26172465" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2397882" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -456,13 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bank/BankAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bank/BankAccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -539,16 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/FileUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bank/ResourcesDirectories.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -556,34 +550,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bank/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/bank/RegexTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bank/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1169#1170#0" expanded="true" />
+            <element signature="e#1196#1197#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+            <element signature="e#1265#1266#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="true" />
+            <element signature="e#1332#1333#0" expanded="true" />
+            <element signature="e#4909#4910#0" expanded="true" />
+            <element signature="e#5000#5001#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bank/RegexTest.java">
+    <entry file="file://$PROJECT_DIR$/src/bank/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        <state relative-caret-position="187">
+          <caret line="17" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bank/BankAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test_18_11_10/Name.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test_18_11_10/Year.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>

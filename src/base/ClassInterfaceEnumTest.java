@@ -1,13 +1,13 @@
 package base;
 
-//also can use class/interface
+// also can use class/interface
 public enum ClassInterfaceEnumTest {
 
     one,
     two;
 
-    public static void main (String[] args){
+    public static void main(String[] args) {
 
-        System.out.println("test");
+        System.out.println(one.name());
     }
 }

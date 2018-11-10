@@ -1,35 +1,39 @@
 package bank;
 
-import com.sun.javaws.exceptions.ErrorCodeResponseException;
+import utils.FileUtils;
 
+import static bank.ResourcesDirectories.BankResources;
+import static utils.FileUtils.*;
+
+import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.sql.SQLOutput;
-import static bank.ResourcesDirectories.*;
+import java.util.List;
+
 
 public class Test {
 
-    public static void main(String[] args) {
-        //Throvable
-        //testFileUtils();
+    public static void main(String[] args) throws IOException {
 
-        try {
-            //checked exception
 
-            throw new Exception("Test exception!");
-        }
+        System.out.println(System.getProperty("test"));
+        System.out.println(System.getProperty("name"));
+
+
+/*        List<String> employeesLines = fileLinesToList(
+                BankResources.name(),
+                "employees.csv");
+
+        List<String> nonEmptyEmployeesLines = extractNonEmptyLines(employeesLines);
+
+
+        for(String line : nonEmptyEmployeesLines){
+            System.out.println(line);
+        }*/
+        //nonEmptyEmployeesLines.forEach(System.out::println);
+
+
     }
 
-    private static void testFileUtils() {
 
-        final String USER_DIR = System.getProperty("user.dir");
-
-        System.out.println ("User directory:" + USER_DIR);
-
-        Path fullFilePath = getLocalPath("employees.csv");
-
-
-
-        System.out.println(fullFilePath);
-    }
 }
